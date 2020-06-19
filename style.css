@@ -1,0 +1,275 @@
+/*CSS Reset code*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*About page*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+html {
+     font-size: 62.5%;
+     overflow-x: hidden;
+
+ }
+
+ body {
+     color:black;
+     font-family: 'Open Sans', sans-serif;     
+     overflow: hidden;
+     font-size: 1.8rem;
+ }
+
+nav {
+    position: absolute;
+    height: 40%;
+    padding-top: 65px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.5rem;
+    line-height: 25px;
+    color: #FFFFFF;
+    
+    /* text-decoration: none; */  
+    background-color: #182B47;
+}
+nav .but {
+    background: white;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#navbarNav {
+    justify-content: flex-end;
+    color: white;
+
+}
+
+.navbar-brand {
+    padding-left: 12rem;
+    font-size: 3.2rem;
+    font-weight: 800;
+}
+.nav-item {
+    margin-right: 1.5rem;
+  }
+
+/* Main   */
+.hero-desc{
+    background-image: url("image/top-image.png");
+    background-size: cover;
+    background-repeat: no-repeat;   
+     
+}
+ #booking {
+    padding: 10px 20px;
+    width: 129px;
+    left: 1190px;
+    background: #DEBC64;
+    margin-top: -0.6rem;
+    color: black;
+ }
+
+ .hero-content {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 34.3rem;
+    background: #111111;
+    opacity: 0.9;
+  }
+
+ .hero-content  ::after {
+     background: url("assets/images/about1.jpg");
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     content: "";
+     opacity: 0.3;
+     top: 0;
+     left: 0;
+     bottom: 0;
+     right: 0;
+     position: absolute;
+     z-index: -1; 
+ }
+
+ .mb-4 {
+     font-weight: bold;
+     font-size: 6.4rem;
+     color: white;
+     position: absolute;
+     width: 324px;
+     height: 87px;
+     left: 120px;
+     top: 100px;
+     font-size: 64px;
+     line-height: 87px;
+ }
+
+ #welcome {
+     padding: 16.7rem 0;
+     height: 90rem;
+ }
+
+ h3 {
+     font-weight: bold;
+     font-size: 3rem;
+ }
+
+ #our-hotel {
+     font-size: 5rem;
+ }
+
+ #welcome-p {
+     font-size: 2rem;
+     padding-top: 3.2rem;
+ }
+
+ #borders {
+    position: absolute;
+    width: 541px;
+    height: 645px;
+    background: url("assets/images/welcome.jpg"), #C4C4C4;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+ }
+
+ #outer-border {
+    position: absolute;
+    width: 50.1rem;
+    height: 60.7rem;
+    left: 1.9rem;
+    top: 1.8rem;
+    border: 0.4rem solid #FFFFFF;
+    box-sizing: border-box; }
+
+ #inner-border {
+    position: absolute;
+    width: 46.7rem;
+    height: 56.7rem;
+    left: 1.2rem;
+    top: 1.8rem;
+    padding-top: 10rem;
+    background: #FFFFFF;
+ }
+ #inner-contents {
+    padding-bottom: 5rem;
+ }
+
+ #star {
+    padding-top: 2rem;
+    padding-left: 10rem;
+
+ }
+
+ #welcome-logo {
+    padding-top: 10rem;
+    padding-left: 18rem;
+ }
+
+ #welcome-h1 {
+    position: absolute;
+    font-size: 92.5714px;
+    font-weight: 800;
+ }
+ #welcome-p {
+    padding-left: 10rem;
+ }
+
+ #features {
+    position: absolute;
+    background: #182B47;
+    width: 100%;
+    height: 80rem;
+    color: white;
+    padding: 10rem 0;
+
+ }
+
+ .feature {
+    border: 1px solid #DEBC64;
+    box-sizing: border-box; 
+    margin: 4rem 9rem;
+    height: 180px;
+    border-radius: 50%;
+}
+
+.feature-content {
+    padding: 6rem 3.5rem;
+    line-height: 3.3rem;
+}
+
+#awards {
+    position: absolute;
+    top: 220rem;
+    height: 100%;
+    align-items: center;
+    margin: 4rem ;
+    width: 100%;
+}
+
+.award-section {
+    margin: 0 18rem;
+}
+
+.award {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 4rem 4rem;
+}
+
+ footer {
+    position: absolute;
+    width: 144.7rem;
+    left: 0px;
+    top: 2893px;
+    background: #182B47;
+ }
